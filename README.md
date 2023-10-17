@@ -1,10 +1,10 @@
 # Web-Page
-README tiedostoon:
+Here are the rows where the evaluated things can be found:
 
 html requirements:
 
-1/5 can be found in index.html on rows 1-235
-2/5 can also be found on rows 1-235
+1/5 can be found in index.html on rows 1-278
+2/5 can also be found on rows 1-278
 3/5 can be found for example on rows 39-54
 4/5 can be found on rows 88-129
 5/5 can be found on rows 88-129
@@ -19,8 +19,8 @@ css requirements:
 
 js requirements:
 
-1/5 rows 233-257 in index.html
-2/5 row 233 in index.html
+1/5 rows 233-266 in index.html
+2/5 row 235 in index.html
 3/5 script.js rows 1-16
 4/5 script.js
 5/5 script.js rows 1-16
@@ -28,7 +28,8 @@ js requirements:
 Asynchronous Operations requirements:
 
 1/5 row 235 in index.html
-2/5 
-3/5 
-4/5 
+2/5 rows 17-33 in script.js
+3/5 rows 241-244 in index.html
+4/5 rows 17-33 in script.js
 5/5
+according to my calculations i have 18 points worth of code here.
