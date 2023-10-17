@@ -19,8 +19,8 @@ css requirements:
 
 js requirements:
 
-1/5 rows 234-240 in index.html
-2/5 row 88 in index.html
+1/5 rows 233-257 in index.html
+2/5 row 233 in index.html
 3/5 script.js
 4/5 script.js
 5/5 script.js
