@@ -4,3 +4,13 @@ function toggleMenu() {
     menu.classList.toggle("open");
     icon.classList.toggle("open");
 }
+
+function increase()
+{
+ document.getElementById("img").style.width = '600px'  
+}
+
+function decrease()
+{
+document.getElementById("img").style.width= ''    
+}

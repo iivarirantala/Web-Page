@@ -383,6 +383,7 @@ background: rgb(250, 250, 250);
     justify-content: center;
     flex-direction: column;
     height: 70vh;
+    position: relative;
 }
 
 .contact-info-upper-container {
@@ -433,6 +434,7 @@ footer p {
     display: flex;
     justify-content: center;
     flex-direction: column;
+
 }
 
 .contact-form-container {
@@ -446,3 +448,8 @@ footer p {
     margin: 2rem auto;
     padding: 0.5rem;     
 }
+ .contact-form-container, button {
+    display: flex;
+    justify-content: center;
+ }
+

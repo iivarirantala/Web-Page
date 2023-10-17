@@ -13,6 +13,9 @@
     #desktop-nav {
     display: none;
     }
+    #weather-clock {
+        display: none;
+    }
 #hamburger-nav {
 display: flex;
 }

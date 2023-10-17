@@ -10,6 +10,7 @@
 <body>
     <nav id="desktop-nav">
         <div class="logo">Iivari Rantala</div>
+        <h1 id="current-time"></h1>
         <div>
             <ul class="nav-links">
 <li><a href="#about">About</a></li>
@@ -35,7 +36,11 @@
             </div>
         </div>
     </nav>
-
+<!--<section id="weather-clock">
+<div class="time-container">
+    
+</div>-->
+</section>
 <section id="profile">
     <div class="section__pic-container">
         <img src="./assets/profiilikuva.png" alt="Iivari Rantala profile picture">
@@ -171,16 +176,14 @@
     <div class="about-containers">
     <div class="details-container color-container">
         <div class="article-container">
-            <img src="./assets/sc2.jpg" alt="Project 1" class="project-img"/>
+            <img src="./assets/sc2.jpg" alt="Project 1" id="img" class="project-img" onmouseover="increase()" onmouseout="decrease()"/>
         </div>
  <h2 class="experience-sub-title project-title">Project One</h2>     
   <div class="btn-container">
-   <button class="btn btn-color-2 prject-btn" onclick="location.href='https://github.com/banksimul-2023-22spo/group_8/tree/main'">
+   <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/banksimul-2023-22spo/group_8/tree/main'">
     Github
    </button> 
-   <button class="btn btn-color-2 prject-btn" onclick="location.href='https://github.com/banksimul-2023-22spo/group_8/tree/main'">
-    Live Demo
-   </button> 
+    
 
   </div> 
     </div>
@@ -190,12 +193,10 @@
         </div>
  <h2 class="experience-sub-title project-title">Project Two</h2>     
   <div class="btn-container">
-   <button class="btn btn-color-2 prject-btn" onclick="location.href='https://github.com/iivarirantala/Web-Page'">
+   <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/iivarirantala/Web-Page'">
     Github
    </button> 
-   <button class="btn btn-color-2 prject-btn" onclick="location.href='https://github.com/iivarirantala/Web-Page'">
-    Live Demo
-   </button> 
+   
 
 </div> 
 </div>
@@ -216,6 +217,7 @@
      <p><a href="https://www.linkedin.com/in/iivari-rantala-8a6273260/?locale=es_ES">LinkedIn</a></p>  
     </div>
   </div>
+  <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact-form'"/>
 </section>
 
 <section id="contact-form">
@@ -229,7 +231,7 @@
         <input type="text" id="email" name="email" value=""><br><br>
         <label for="lname">Your Message:</label><br>
         <input type="text" id="msg" name="msg" value=""><br><br>
-        <button onclick="myFunction()">Send</button>
+        <button class="btn btn-color-2 contact-btn" onclick="myFunction()">Send</button>
       </form>    
 </div>
 </section>
@@ -255,6 +257,15 @@ function myFunction() {
   alert("Your message was sent succesfully!");
 }
 </script>
+<script>
+let time = document.getElementById("current-time");
+setInterval(()=>{
+    let d = new Date();
+time.innerHTML = d.toLocaleTimeString();
+},1000)
+
+</script>
+
     <script src="script.js"></script>
 </body>
 </html>
