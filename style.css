@@ -433,12 +433,12 @@ footer p {
 #contact-form {
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction:column ;
 
 }
 
 .contact-form-container {
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
     border-radius: 2rem;
@@ -448,8 +448,9 @@ footer p {
     margin: 2rem auto;
     padding: 0.5rem;     
 }
- .contact-form-container, button {
+ .contact-btn {
     display: flex;
+    align-items: center;
     justify-content: center;
  }
 
