@@ -454,3 +454,10 @@ footer p {
     justify-content: center;
  }
 
+/* DOG API */
+
+main {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
