@@ -22,7 +22,7 @@ js requirements:
 1/5 rows 233-266 in index.html
 2/5 row 235 in index.html
 3/5 script.js rows 1-16
-4/5 script.js
+4/5 
 5/5 script.js rows 1-16
 
 Asynchronous Operations requirements:
